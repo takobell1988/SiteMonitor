@@ -35,4 +35,5 @@ jobs:
         with:
           push: true
           tags: site-monitor:latest
-
+	  secrets: |
+            GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
