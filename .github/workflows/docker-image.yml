@@ -34,6 +34,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: site-monitor:latest
+          tags: takobell1988/site-monitor
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
